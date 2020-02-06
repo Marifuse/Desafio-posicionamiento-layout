@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 3</title>
+    <style media="screen" type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    /* bandera de España */
+    .españa {
+      height: 400px;
+      width: 600px;
+      background-color: red;
+      border: 1px solid grey;
+      z-index: -1;
+      margin-left: 1.5em;
+      margin-top: 1em;
+      position: relative;
+      display: inline-block;
+    }
+    .yellow {
+      background-color: yellow;
+      height: 180px;
+      z-index: 0;
+      margin-top: 16%;
+    }
+    /* bandera de Dinamarca */
+    .dinamarca {
+      height: 400px;
+      width: 600px;
+      border: 1px solid grey;
+      background-color: red;
+      margin-left: 100px;
+      display: inline-block;
+    }
+    .vertical-white-line {
+      width: 50px;
+      height: 100%;
+      background-color: white;
+      margin-left: 200px;
+    }
+    .horizontal-white-line {
+      width: 100%;
+      height: 50px;
+      background-color: white;
+      margin-top: -225px;
+    }
+    /* bandera de Emiratos Arabes */
+    .emiratos-arabes {
+      margin-top: 100px;
+      height: 400px;
+      width: 600px;
+      border: 1px solid grey;
+      background-color: green;
+      z-index: -2;
+      margin-left: 1.5em;
+      position: relative;
+      display: inline-block;
+    }
+    .red {
+      width: 133px;
+      height: 100%;
+      background-color: red;
+      position: absolute;
+      z-index: 0
+    }
+    .white {
+      width: 100%;
+      height: 133px;
+      background-color: white;
+      position: absolute;
+      bottom: 133px;
+      z-index: -1
+    }
+    .black {
+      width: 100%;
+      height: 133px;
+      background-color: black;
+      position: absolute;
+      bottom: 0px;
+      z-index: -1
+    }
+    /* bandera de Japón */
+    .japon {
+      height: 400px;
+      width: 600px;
+      border: 1px solid grey;
+      background-color: white;
+      margin-left: 100px;
+      position: relative;
+      display: inline-block;
+    }
+    .red-circle {
+      height: 200px;
+      width: 200px;
+      background-color: red;
+      border-radius: 100px;
+      position: absolute;
+      left: 200px;
+      top: 100px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="españa">
+      <div class="yellow">
+      </div>
+    </div>
+    <div class="dinamarca">
+      <div class="vertical-white-line">
+      </div>
+      <div class="horizontal-white-line">
+      </div>
+    </div>
+    <div class="emiratos-arabes">
+      <div class="red">
+      </div>
+      <div class="white">
+      </div>
+      <div class="black">
+      </div>
+    </div>
+    <div class="japon">
+      <div class="red-circle">
+      </div>
+    </div>
+  </body>
+</html>
